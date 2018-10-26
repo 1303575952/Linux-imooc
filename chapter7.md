@@ -50,3 +50,20 @@ LoadModule rewrite_module modules/mod_rewrite.so
 ## Nginx
 
 * Nginx基本操作
+
+解释|命令
+:--:|:--:
+安装|yum install nginx
+启动|service nginx start
+停止|service nginx stop
+重载|service nginx reload
+
+* Nginx虚拟主机配置
+
+在/etc/nginx/中配置，配置格式类似Apache
+
+* Nginx
+
+在/etc/nginx/中配置，配置格式类似Apache
+
+* 反向代理和负载均衡
